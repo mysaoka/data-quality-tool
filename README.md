@@ -27,7 +27,7 @@ pip install pandas numpy scipy pydantic psycopg2-binary sqlalchemy python-dotenv
 Положи этот файл в папку config/ проекта
 Никому не отправляй и не заливай на GitHub этот файл — там хранятся секретные данные доступа
 Структура папок должна получиться такой:
-plaintext
+```plaintext
 data-quality-tool/
 ├── config/
 │   └── db_config.yaml    ← сюда положи полученный файл
@@ -35,10 +35,12 @@ data-quality-tool/
 ├── checks/
 ├── main.py
 └── README.md
+```
 4. Запусти инструмент
-bash
+```bash
 Run
 python main.py
+```
 Как работать с кодом
 Основные файлы проекта
 Таблица
@@ -52,11 +54,13 @@ config/db_config.yaml	Твой личный файл с доступами к Б
 Как отправить свои изменения
 Сделай изменения в коде или шаблонах
 Зафиксируй их:
-bash
+```bash
 Run
 git add .
 git commit -m "Описание что именно изменил"
+```
 Отправь в общий репозиторий:
-bash
+```bash
 Run
 git push
+```

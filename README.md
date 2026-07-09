@@ -15,11 +15,13 @@
 ```bash
 git clone https://github.com/mysaoka/data-quality-tool.git
 cd data-quality-tool
+```
 2. Установи необходимые библиотеки
 Открой терминал в папке проекта и запусти:
-bash
+```bash
 Run
 pip install pandas numpy scipy pydantic psycopg2-binary sqlalchemy python-dotenv
+```
 3. Настрой подключение к базе данных
 Я отправлю тебе готовый файл конфигурации db_config.yaml:
 Положи этот файл в папку config/ проекта
